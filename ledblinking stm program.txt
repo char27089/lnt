@@ -1,0 +1,18 @@
+// Define the pin connected to the LED
+#define LED_PIN PC13
+
+void setup() {
+  // Initialize the LED pin as an output
+  pinMode(LED_PIN, OUTPUT);
+}
+
+void loop() {
+  // Turn the LED on
+  digitalWrite(LED_PIN, HIGH);
+  // Wait for 500 milliseconds
+  delay(500);
+  // Turn the LED off
+  digitalWrite(LED_PIN, LOW);
+  // Wait for another 500 milliseconds
+  delay(500);
+}
